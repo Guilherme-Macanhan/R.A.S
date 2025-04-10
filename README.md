@@ -1,7 +1,7 @@
 # R.A.S
 ## 1 Identificação
 PROJETO CRIADO EM <b> MARÇO DE 2025. </b> <br>
-Esse é o repositório do Robo <b> R.A.S (Robo autonomo de Serviços) </b> construido para um Projeto de TCC do IFPR Pinhais. <br> <br>
+Esse é o repositório do Robo <b> R.A.S (Robo autonomo de Serviços) </b> construido para um Projeto de TCC do <b> IFPR Pinhais.</b> <br> <br>
 Orientado pelo Professor <b> Marlon de Oliveira Vaz. </b> <br>
 
 Orientados: <br>
@@ -50,7 +50,7 @@ Nosso mvp do projeto será um simulador em python que simulará um ambiente com 
 
 <table>
 <tr>
- <th> Id Riscos </th>
+ <th> ID Riscos </th>
  <th> Descrição Risco</th>
  <th> Probabilidade</th>
  <th> Impacto</th>
