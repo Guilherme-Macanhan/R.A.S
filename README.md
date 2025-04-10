@@ -9,8 +9,8 @@ Orientados: <br>
 - <strong> Guilherme Macanhan</strong>, cuidara da parte de programação e calculos. <br>
 - <b> Nicolas Vaz</b>, junto ao Macanhan irá fazer a parte de programação. <br>
 
-###Identificação Visual do projeto
-<img src="" alt="Foto do robô">
+### Identificação Visual do projeto
+<img src="robotino.jpg" alt="Foto do robô">
 
 ## 2 Introdução
 ### Descrição da Visão geral do Projeto:
@@ -48,4 +48,22 @@ Nosso mvp do projeto será um simulador em python que simulará um ambiente com 
 
 ### Matriz de Riscos:
 
-|ID RiscoZ
+<table>
+<tr>
+ <th> Id Riscos </th>
+ <th> Descrição Risco</th>
+ <th> Probabilidade</th>
+ <th> Impacto</th>
+ <th> Plano de Resposta</th>
+ <th> Status do Risco</th>
+</tr>
+<tr>
+ <th> 1 </th>
+ <th> Robô andar descontroladamente pelo ambiente</th>
+ <th> baixa </th>
+ <th> alto </th>
+ <th> Botão de parada bruta que desligará o sistema por completo assim que acionado</th>
+ <th>Nunca ocorrido</th>
+</tr>
+
+</table>
