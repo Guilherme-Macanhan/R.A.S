@@ -1,14 +1,15 @@
 # R.A.S
 ## Identificação
-PROJETO CRIADO EM MARÇO DE 2025
-Esse é o repositorio do Robo R.A.S (Robo autonomo de Serviços) construido para um Projeto de TCC do IFPR Pinhais
-Orientado pelo Professor Marlon de Oliveira Vaz
-Orientados:
--Gustavo Rocha, qualterá a responsabilidade da parte eletrica e mecanica do robô.
--Guilherme Macanhan, cuidara da parte de programação e calculos.
--Nicolas Vaz, junto ao Macanhan irá fazer a parte de programação.
+PROJETO CRIADO EM MARÇO DE 2025. <br>
+Esse é o repositorio do Robo R.A.S (Robo autonomo de Serviços) construido para um Projeto de TCC do IFPR Pinhais. <br> <br>
+Orientado pelo Professor <b> Marlon de Oliveira Vaz. </b> <br>
 
-Nosso projeto tem foco de automatizar a problematização por tras
+Orientados: <br>
+- <strong> Gustavo Rocha</strong> , qual terá a responsabilidade da parte eletrica e mecanica do robô. <br>
+- <strong> Guilherme Macanhan</strong>, cuidara da parte de programação e calculos. <br>
+- <b> Nicolas Vaz</b>, junto ao Macanhan irá fazer a parte de programação. <br>
+
+
 
 ## 2 Introdução
 ### Descrição da Visão geral do Projeto:
