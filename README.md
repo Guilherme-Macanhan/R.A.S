@@ -48,22 +48,70 @@ Nosso mvp do projeto será um simulador em python que simulará um ambiente com 
 
 ### Matriz de Riscos:
 
-<table>
+<table border="1">
 <tr>
- <th> ID Riscos </th>
- <th> Descrição Risco</th>
- <th> Probabilidade</th>
- <th> Impacto</th>
- <th> Plano de Resposta</th>
- <th> Status do Risco</th>
+ <th>ID Riscos</th>
+ <th>Descrição do Risco</th>
+ <th>Probabilidade</th>
+ <th>Impacto</th>
+ <th>Plano de Resposta</th>
+ <th>Status do Risco</th>
 </tr>
 <tr>
- <th> 1 </th>
- <th> Robô andar descontroladamente pelo ambiente</th>
- <th> baixa </th>
- <th> alto </th>
- <th> Botão de parada bruta que desligará o sistema por completo assim que acionado</th>
- <th>Nunca ocorrido</th>
+ <td>1</td>
+ <td>Robô andar descontroladamente pelo ambiente</td>
+ <td>Baixa</td>
+ <td>Alto</td>
+ <td>Botão de parada bruta que desligará o sistema por completo assim que acionado</td>
+ <td>Nunca ocorrido</td>
 </tr>
-
+<tr>
+ <td>2</td>
+ <td>Superaquecimento do Raspberry Pi ou motores</td>
+ <td>Média</td>
+ <td>Médio</td>
+ <td>Monitoramento da temperatura e desligamento automático em caso de temperatura crítica</td>
+ <td>Nunca ocorrido</td>
+</tr>
+<tr>
+ <td>3</td>
+ <td>Curto-circuito nos componentes eletrônicos</td>
+ <td>Baixa</td>
+ <td>Alto</td>
+ <td>Uso de fusíveis, proteção contra sobrecorrente e carcaça isolante</td>
+ <td>Nunca ocorrido</td>
+</tr>
+<tr>
+ <td>4</td>
+ <td>Falha de comunicação entre sensores e o Raspberry Pi</td>
+ <td>Média</td>
+ <td>Médio</td>
+ <td>Função que reinicia o sistema de sensores automaticamente</td>
+ <td>Nunca ocorrido</td>
+</tr>
+<tr>
+ <td>5</td>
+ <td>Falta de energia durante a operação</td>
+ <td>Média</td>
+ <td>Alto</td>
+ <td>Implementação de sistema beep para aviso de falhas</td>
+ <td>Nunca ocorrido</td>
+</tr>
+<tr>
+ <td>6</td>
+ <td>Erro de reconhecimento de comando de voz</td>
+ <td>Média</td>
+ <td>Baixo</td>
+ <td>Repetição do comando com feedback de voz solicitando nova tentativa</td>
+ <td>Nunca ocorrido</td>
+</tr>
+<tr>
+ <td>7</td>
+ <td>Obstáculo não detectado em tempo hábil</td>
+ <td>Baixa</td>
+ <td>Alto</td>
+ <td>Dupla redundância de sensores e atualização em tempo real do mapeamento</td>
+ <td>Falha ocorrida em simulador</td>
+</tr>
 </table>
+
