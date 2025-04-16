@@ -256,6 +256,35 @@ if distancia != 0:
   ````
 - dx e dy são as diferenças horizontais e verticais.
 
+
+## Glossário de termos do código
+
+| Termo/Código                        | Significado                                                                 |
+|------------------------------------|------------------------------------------------------------------------------|
+| `import`                           | Importa bibliotecas para usar funções prontas (ex: `math`, `pygame`, `random`). |
+| `pygame.init()`                    | Inicializa todos os módulos do Pygame.                                      |
+| `range(n)`                         | Gera números de 0 até n-1.                                                  |
+| `for x in lista:`                  | Laço que percorre cada item da lista.                                       |
+| `if`, `elif`, `else`               | Condições: se, senão se, senão.                                             |
+| `and`, `or`, `not`                 | Operadores lógicos (e, ou, não).                                            |
+| `def nome():`                      | Cria uma função (bloco de código reutilizável).                             |
+| `math.hypot(x, y)`                 | Calcula a distância entre dois pontos (usando Pitágoras).                   |
+| `random.choice(lista)`             | Escolhe um item aleatório da lista.                                         |
+| `random.shuffle(lista)`            | Embaralha a ordem dos itens da lista.                                       |
+| `pygame.draw.rect()`               | Desenha um retângulo na tela.                                               |
+| `pygame.draw.circle()`             | Desenha um círculo na tela.                                                 |
+| `pygame.display.set_mode()`        | Cria a janela do jogo com a resolução escolhida.                            |
+| `pygame.event.get()`               | Captura eventos (como fechar a janela).                                     |
+| `pygame.QUIT`                      | Evento de "fechar o jogo".                                                  |
+| `pygame.display.flip()`            | Atualiza o conteúdo da tela.                                                |
+| `pygame.time.Clock()`              | Controla o tempo do jogo (FPS).                                             |
+| `clock.tick(60)`                   | Limita o jogo a 60 frames por segundo.                                      |
+| `+=`, `-=`                         | Aumenta/diminui e já atribui (`x += 1` é igual a `x = x + 1`).              |
+| `//`                               | Divisão inteira (retorna só a parte inteira).                               |
+| `[x, y]`                           | Lista mutável (pode mudar).                                                 |
+| `(x, y)`                           | Tupla imutável (valor fixo).                                                |
+| `(x, y) not in lista`              | Verifica se a posição NÃO está na lista.                                    |
+
 - dx / distancia e dy / distancia → transformam isso em um vetor de direção unitário.
 
 - Multiplica por velocidade = 2 → o robô anda 2 pixels na direção certa, sem sair do caminho.
