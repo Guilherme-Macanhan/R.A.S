@@ -255,7 +255,9 @@ if distancia != 0:
     robo_pos_real[1] += dy / distancia * velocidade
   ````
 - dx e dy são as diferenças horizontais e verticais.
+- dx / distancia e dy / distancia → transformam isso em um vetor de direção unitário.
 
+- Multiplica por velocidade = 2 → o robô anda 2 pixels na direção certa, sem sair do caminho.
 
 ## Glossário de termos do código
 
@@ -285,6 +287,4 @@ if distancia != 0:
 | `(x, y)`                           | Tupla imutável (valor fixo).                                                |
 | `(x, y) not in lista`              | Verifica se a posição NÃO está na lista.                                    |
 
-- dx / distancia e dy / distancia → transformam isso em um vetor de direção unitário.
 
-- Multiplica por velocidade = 2 → o robô anda 2 pixels na direção certa, sem sair do caminho.
